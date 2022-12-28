@@ -1,0 +1,30 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "REST api using postgresql and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saptarshi1992/node-REST.git"
+  },
+  "author": "saptarshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saptarshi1992/node-REST/issues"
+  },
+  "homepage": "https://github.com/saptarshi1992/node-REST#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0"
+  }
+}
